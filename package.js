@@ -9,7 +9,7 @@ Package.describe({
 Package.onUse((api) => {
   // NOTE: symlink with example app causes error, upgrade to 1.3.2 or higher
   // to run the examples. https://github.com/meteor/meteor/issues/6665
-  api.versionsFrom('1.3.1');
+  api.versionsFrom('2.5.0');
 
   // "ecmascript" is mandatory dependency to compile our package's es6 code.
   api.use('ecmascript');
